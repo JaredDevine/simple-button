@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500;600&display=swap');
 
 html {
-    background-color: #000064;
+    background-color: #3A86FF;
 }
 
 body {
@@ -11,6 +11,27 @@ body {
 main {
     display: flex;
     justify-content: center;
+}
+
+:root {
+    /* Dark */
+    --dark-yellow: #FFBE0B;
+    --dark-orange: #FB5607;
+    --dark-red: #FF006E;
+    --dark-purple: #8338EC;
+    --dark-blue: #3A86FF;
+    /* Medium */
+    --medium-yellow: #FFCB3B;
+    --medium-orange: #FC773A;
+    --medium-red: #FF338B;
+    --medium-purple: #9B5EF0;
+    --medium-blue: #609DFF;
+        /* Light */
+    --light-yellow: #FFD664;
+    --light-orange: #FD9362;
+    --light-red: #FF5CA3;
+    --light-purple: #AE7CF3;
+    --light-blue: #81B1FF;
 }
 
 /*--------------------------------------------------------------
@@ -25,7 +46,7 @@ main {
 }
 
 .simple-button {
-    background-color: #0000e6;
+    background-color: #609DFF;
     border-radius: 32px;
     border: none;
     color: #ffffff;
@@ -36,6 +57,6 @@ main {
 }
 
 .simple-button:hover {
-    background-color: #4d4dff;
+    background-color: #81B1FF;
     cursor: pointer;
 }
