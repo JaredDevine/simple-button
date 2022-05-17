@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500;600&display=swap');
 
+html {
+    background-color: #000064;
+}
+
 main {
     display: flex;
     justify-content: center;
