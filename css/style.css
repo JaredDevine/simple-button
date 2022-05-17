@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500;600&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------------------------------------------------------
+## Button
+--------------------------------------------------------------*/
+
+.simple-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.simple-button {
+    background-color: #0000e6;
+    border: none;
+    border-radius: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+    color: #ffffff;
+    transition: background-color 200ms;
+}
+
+.simple-button:hover {
+    background-color: #4d4dff;
+    cursor: pointer;
+}
